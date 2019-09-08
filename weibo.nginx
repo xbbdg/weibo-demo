@@ -1,0 +1,19 @@
+server {
+    listen 80;
+
+    location / {
+        proxy_pass http://localhost:3000;
+    }
+
+    location /static {
+        alias /var/www/weibo/demo_app/static;
+    }
+
+    location /static/js {
+        alias /var/www/weibo/demo_app/static/js;
+    }
+
+    location /static/css {
+        alias /var/www/weibo/demo_app/static/css;
+    }
+}
