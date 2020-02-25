@@ -1,4 +1,4 @@
-# Weibo Demo
+# Weibo
 
 基于 自制 HTTP/WSGI 服务器 以及 MVC 框架搭建的 Weibo 服务
 
